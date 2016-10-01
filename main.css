@@ -1,0 +1,114 @@
+
+.eight.column {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.heading {
+  margin: 10px;
+
+}
+.quotebox {
+  background: #F3F0EB;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ECCFCF;
+  border-radius: 4px;
+
+}
+
+.buttons {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+
+}
+
+.buttons .newquote {
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+  border: 1px solid #ECCFCF;
+  background: #F3F0EB;
+  color: #000000
+
+}
+
+.buttons .tweet {
+  margin-left: 0;
+  margin-right: 0;
+  float: right;
+  border: 1px solid #ECCFCF;
+  background: #F3F0EB;
+  color: #000000
+
+}
+
+
+#quote {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000
+
+}
+
+#author {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-style: italic;
+  text-align: right;
+  margin-bottom: 0;
+
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #ECCFCF;
+  text-align: center;
+
+
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ECCFCF;
+}
+
+a:hover {
+  color: #ECCFCF;
+}
+
+a:active {
+  color: #ECCFCF;
+}
+
+body {
+  background: #A6A5B5;
+}
+
+@media (min-width: 600px) {
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .eight.column {
+    width: 66.6%;
+  }
+}
